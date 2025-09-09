@@ -1,4 +1,4 @@
-package negocio;
+package model;
 
 /**
  * Classe {@link Cliente} que representa um cliente real do banco.
@@ -28,7 +28,7 @@ public class Cliente {
 	}
 
 	/**
-	 * Método que retorna o ID do cliente. 
+	 * MÃ©todo que retorna o ID do cliente. 
 	 * @return ID do cliente
 	 */
 	public int getId() {
@@ -36,14 +36,14 @@ public class Cliente {
 	}
 
 	/**
-	 * Método que atualiza o ID do cliente. 
+	 * MÃ©todo que atualiza o ID do cliente. 
 	 */
 	public void setId(int id) {
 		this.id = id;
 	}
 	
 	/**
-	 * Método que retorna o nome do cliente. 
+	 * MÃ©todo que retorna o nome do cliente. 
 	 * @return nome do cliente
 	 */
 	public String getNome() {
@@ -51,14 +51,14 @@ public class Cliente {
 	}
 
 	/**
-	 * Método que atualiza o nome do cliente. 
+	 * MÃ©todo que atualiza o nome do cliente. 
 	 */
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
 
 	/**
-	 * Método que retorna a idade do cliente. 
+	 * MÃ©todo que retorna a idade do cliente. 
 	 * @return idade do cliente
 	 */
 	public int getIdade() {
@@ -66,14 +66,14 @@ public class Cliente {
 	}
 
 	/**
-	 * Método que atualiza a idade do cliente. 
+	 * MÃ©todo que atualiza a idade do cliente. 
 	 */
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
 	
 	/**
-	 * Método que retorna o email do cliente. 
+	 * MÃ©todo que retorna o email do cliente. 
 	 * @return email do cliente
 	 */
 	public String getEmail() {
@@ -81,14 +81,14 @@ public class Cliente {
 	}
 
 	/**
-	 * Método que atualiza o email do cliente. 
+	 * MÃ©todo que atualiza o email do cliente. 
 	 */
 	public void setEmail(String email) {
 		this.email = email;
 	}
 
 	/**
-	 * Método que retorna o status (Ativo ou Inativo) do cliente. 
+	 * MÃ©todo que retorna o status (Ativo ou Inativo) do cliente. 
 	 * @return status do cliente
 	 */
 	public boolean isAtivo() {
@@ -96,14 +96,14 @@ public class Cliente {
 	}
 
 	/**
-	 * Método que atualiza o status do cliente. 
+	 * MÃ©todo que atualiza o status do cliente. 
 	 */
 	public void setAtivo(boolean ativo) {
 		this.ativo = ativo;
 	}
 
 	/**
-	 * Método que retorna o ID da conta corrente associada ao cliente. 
+	 * MÃ©todo que retorna o ID da conta corrente associada ao cliente. 
 	 * @return ID da conta corrente associada ao cliente
 	 */
 	public int getIdContaCorrente() {
@@ -111,15 +111,15 @@ public class Cliente {
 	}
 
 	/**
-	 * Método que atualiza o ID da conta corrente associada ao cliente. 
+	 * MÃ©todo que atualiza o ID da conta corrente associada ao cliente. 
 	 */
 	public void setIdContaCorrente(int idContaCorrente) {
 		this.idContaCorrente = idContaCorrente;
 	}
 	
 	/**
-	 * Método que retorna a representação textual de um cliente. 
-	 * @return representação textual de um cliente
+	 * MÃ©todo que retorna a representaÃ§Ã£o textual de um cliente. 
+	 * @return representaÃ§Ã£o textual de um cliente
 	 */
 	@Override
 	public String toString() {

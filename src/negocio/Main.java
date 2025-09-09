@@ -1,6 +1,12 @@
 package negocio;
 
+
 import java.util.Scanner;
+
+import model.ContaCorrente;
+import negocio.Cliente;
+import negocio.SistemaBancario;
+import negocio.TestesMain;
 
 public class Main {
 

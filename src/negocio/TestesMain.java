@@ -1,5 +1,7 @@
 package negocio;
 
+import model.ContaCorrente;
+
 public class TestesMain {
 
     private SistemaBancario sistema;

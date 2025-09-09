@@ -1,6 +1,9 @@
-package negocio;
+package service;
 
 import java.util.List;
+
+import model.Cliente;
+import model.exception.IdadeNaoPermitidaException;
 
 /**
  * Classe de neg�cio para realizar opera��es sobre os clientes do banco.

@@ -3,6 +3,8 @@ package negocio;
 import java.util.ArrayList;
 import java.util.List;
 
+import model.ContaCorrente;
+
 public class SistemaBancario{
 
     private GerenciadoraClientes gerClientes;
