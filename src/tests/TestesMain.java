@@ -1,5 +1,6 @@
-package negocio;
+package tests;
 
+import model.Cliente;
 import model.ContaCorrente;
 
 public class TestesMain {

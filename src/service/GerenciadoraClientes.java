@@ -98,8 +98,7 @@ public class GerenciadoraClientes {
 	 * Valida se a idade do cliente est� dentro do intervalo permitido (18 - 65).
 	 * @param idade a idade do poss�vel novo cliente
 	 */
-	public boolean validaIdade(int idade) throws IdadeNaoPermitidaException {
-	
+	public boolean validaIdade(int idade) throws IdadeNaoPermitidaException {	
 		if(idade < 18 || idade > 65)
 			throw new IdadeNaoPermitidaException();
 		
