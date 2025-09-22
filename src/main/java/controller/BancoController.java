@@ -100,7 +100,7 @@ public class BancoController {
                         break;
                         
                     case 5:
-                        executarTestesUnitarios();
+                        clienteController.listarClientes();
                         break;
                         
                     case 6:
