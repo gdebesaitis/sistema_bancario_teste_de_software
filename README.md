@@ -86,6 +86,11 @@ Utilizados para verificar a conformidade com comportamentos repetitivos e consis
 
 ---
 
+## Uso de Inteligência Artificial
+A ferramenta de IA Gemini (do Google) foi utilizada como assistente de programação para a criação dos casos de teste. Seu uso foi focado na geração do código-base para as técnicas de Teste de Ramificação e Teste de Transição de Estado, acelerando a implementação dos testes unitários com JUnit.
+
+---
+
 ## Resultados Obtidos
 
 A aplicação sistemática das técnicas de teste permitiu:
