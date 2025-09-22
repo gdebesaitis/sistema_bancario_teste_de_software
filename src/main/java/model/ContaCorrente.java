@@ -1,4 +1,4 @@
-package model;
+package main.java.model;
 
 /**
  * Classe {@link ContaCorrente} que representa uma conta corrente real

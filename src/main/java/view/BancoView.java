@@ -1,7 +1,7 @@
-package view;
+package main.java.view;
 
-import model.Cliente;
-import model.ContaCorrente;
+import main.java.model.Cliente;
+import main.java.model.ContaCorrente;
 import java.util.List;
 
 /**

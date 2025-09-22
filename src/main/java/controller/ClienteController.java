@@ -1,10 +1,10 @@
-package controller;
+package main.java.controller;
 
-import model.Cliente;
-import model.exception.IdadeNaoPermitidaException;
-import service.ClienteService;
-import view.BancoView;
-import view.MenuView;
+import main.java.model.Cliente;
+import main.java.model.exception.IdadeNaoPermitidaException;
+import main.java.service.ClienteService;
+import main.java.view.BancoView;
+import main.java.view.MenuView;
 
 /**
  * Controller responsável por gerenciar as operações relacionadas aos clientes.

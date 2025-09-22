@@ -1,8 +1,8 @@
-package service;
+package main.java.service;
 
 import java.util.List;
-import model.Cliente;
-import model.exception.IdadeNaoPermitidaException;
+import main.java.model.Cliente;
+import main.java.model.exception.IdadeNaoPermitidaException;
 
 /**
  * Classe de negócio para realizar operações sobre os clientes do banco.

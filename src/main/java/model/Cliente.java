@@ -1,4 +1,4 @@
-package model;
+package main.java.model;
 
 /**
  * Classe {@link Cliente} que representa um cliente real do banco.
