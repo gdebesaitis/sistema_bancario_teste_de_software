@@ -1,4 +1,4 @@
-package service;
+package test.java.service;
 
 import main.java.model.Cliente;
 import main.java.service.ClienteService;
@@ -46,5 +46,15 @@ public class ClienteServiceTest{
         clienteService.ativarCliente(1);
 
         assertTrue(clienteTeste.isAtivo(), "O cliente deveria estar ativo após a operação.");
+    }
+
+    @Test
+    @DisplayName("Deve permanecer ATIVO ao tentar ativar um cliente que já está ativo")
+    void testePermanenciaNoEstadoAtivo() {
+        assertTrue(clienteTeste.isAtivo(), "Pré-condição: O cliente deve iniciar como ativo.");
+
+        clienteService.ativarCliente(1);
+
+        assertTrue(clienteTeste.isAtivo(), "O cliente deve permanecer ativo.");
     }
 }

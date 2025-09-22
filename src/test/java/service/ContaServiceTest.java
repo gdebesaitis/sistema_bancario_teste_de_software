@@ -1,4 +1,4 @@
-package service;
+package test.java.service;
 
 import main.java.model.ContaCorrente;
 import main.java.service.ContaService;
