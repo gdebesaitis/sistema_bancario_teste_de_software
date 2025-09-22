@@ -1,7 +1,4 @@
-package tests;
-
-import model.Cliente;
-import model.ContaCorrente;
+package main.java.test;
 
 public class TestesMain {
 

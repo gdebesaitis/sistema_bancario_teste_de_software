@@ -1,9 +1,9 @@
-package controller;
+package main.java.controller;
 
-import model.ContaCorrente;
-import service.ContaService;
-import view.MenuView;
-import view.BancoView;
+import main.java.model.ContaCorrente;
+import main.java.service.ContaService;
+import main.java.view.MenuView;
+import main.java.view.BancoView;
 
 /**
  * Controller responsável por gerenciar as operações relacionadas às contas correntes.

@@ -1,4 +1,4 @@
-package model.exception;
+package main.java.model.exception;
 
 /**
  * Exce��o a ser lan�ada quando a idade de um poss�vel novo cliente n�o for aceita.

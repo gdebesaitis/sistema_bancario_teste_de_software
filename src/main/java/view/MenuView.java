@@ -1,4 +1,4 @@
-package view;
+package main.java.view;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class MenuView {
         System.out.println("2) Consultar por uma conta corrente");
         System.out.println("3) Ativar um cliente");
         System.out.println("4) Desativar um cliente");
-        System.out.println("5) Executar testes unitários");
+        System.out.println("5) Listar todos os clientes");
         System.out.println("6) Sair");
         System.out.print("\nDigite sua opção: ");
     }

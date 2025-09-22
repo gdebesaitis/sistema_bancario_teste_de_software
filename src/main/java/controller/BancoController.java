@@ -1,11 +1,11 @@
-package controller;
+package main.java.controller;
 
-import model.Cliente;
-import model.ContaCorrente;
-import service.ClienteService;
-import service.ContaService;
-import view.MenuView;
-import view.BancoView;
+import main.java.model.Cliente;
+import main.java.model.ContaCorrente;
+import main.java.service.ClienteService;
+import main.java.service.ContaService;
+import main.java.view.MenuView;
+import main.java.view.BancoView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -100,7 +100,7 @@ public class BancoController {
                         break;
                         
                     case 5:
-                        executarTestesUnitarios();
+                        clienteController.listarClientes();
                         break;
                         
                     case 6:
@@ -184,7 +184,7 @@ public class BancoController {
     }
     
     /**
-     * Obtém o service de clientes (para uso em testes ou outras operações).
+     * Obtém o main.java.service de clientes (para uso em testes ou outras operações).
      * @return ClienteService
      */
     public ClienteService getClienteService() {
@@ -192,7 +192,7 @@ public class BancoController {
     }
     
     /**
-     * Obtém o service de contas (para uso em testes ou outras operações).
+     * Obtém o main.java.service de contas (para uso em testes ou outras operações).
      * @return ContaService
      */
     public ContaService getContaService() {

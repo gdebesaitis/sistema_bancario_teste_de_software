@@ -1,7 +1,7 @@
-package service;
+package main.java.service;
 
 import java.util.List;
-import model.ContaCorrente;
+import main.java.model.ContaCorrente;
 
 /**
  * Classe de negócio para realizar operações sobre as contas do banco.
